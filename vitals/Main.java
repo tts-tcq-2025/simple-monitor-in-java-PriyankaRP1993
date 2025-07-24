@@ -11,7 +11,7 @@ public class Main {
         } else if(chargeRate > 0.8) {
             System.out.println("Charge Rate is out of range!");
             return false;
-        }
+        } else
         return true;
     }
 
